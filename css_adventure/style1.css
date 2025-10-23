@@ -1,0 +1,20 @@
+body{
+    background-color: lightgrey;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+p, footer{
+    color: rgb(53, 53, 53);
+}
+.relevant{
+    color: rgb(47, 148, 206);
+}
+#first-paragraph::first-Letter{
+    color: orangered;
+    font-size: 200%;
+    font-weight: bold;
+}
+footer{
+    text-align: right;
+}

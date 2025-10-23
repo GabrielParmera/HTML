@@ -1,0 +1,17 @@
+.caixa{
+    width: 100px;
+    height: 100px;
+}
+.caixa1{
+    background-color: red;
+}
+.caixa2{
+    background-color: green;
+}
+.caixa3{
+    background-color: blue;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
