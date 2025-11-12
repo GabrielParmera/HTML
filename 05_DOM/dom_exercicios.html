@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercícios JavaScript Dinâmico</title>
+</head>
+<body>
+    <!-- Etapa 1: Parágrafo modificado -->
+    <h2>1. Modificação de Parágrafo</h2>
+    <p id="meuParagrafo">Texto original</p>
+
+    <hr>
+
+    <!-- Etapa 2: Adicionar itens à lista -->
+    <h2>2. Adicionar Itens à Lista</h2>
+    <button id="adicionarBtn">Adicionar Item</button>
+    <ul id="minhaLista"></ul>
+
+    <hr>
+
+    <!-- Etapa 3: Alterar cor dinamicamente -->
+    <h2>3. Alterar Cor do Parágrafo</h2>
+    <p id="paragrafoEstilo">Parágrafo para mudar a cor</p>
+    <button id="btnMudaCor">Mudar Cor</button>
+
+    <hr>
+
+    <!-- Etapa 4: Manipular link dinamicamente -->
+    <h2>4. Manipulação de Atributo em Link</h2>
+    <a id="meuLink">Visite o site</a>
+    <button id="btnAdicionaHref">Adicionar Link</button>
+    
+    <hr>
+
+    <!-- Etapa 5: Validação de campo obrigatório -->
+    <h2>5. Validação de Campo Obrigatório</h2>
+    <form id="formNome">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+        <button type="submit">Enviar</button>
+        <span id="erroNome" style="color: red; display: none;">Preencha o nome.</span>
+    </form>
+
+    <hr>
+
+    <!-- Etapa 6: Exibindo mensagem de erro para email -->
+    <h2>6. Validação de Email</h2>
+    <form id="formEmail">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email">
+        <button type="submit">Enviar</button>
+        <span id="erroEmail" style="color: red; display: none;">O e-mail deve conter "@".</span>
+    </form>
+
+    <hr>
+
+    <!-- Etapa 7: Validação de senha -->
+    <h2>7. Validação de Senha</h2>
+    <form id="formSenha">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+        <label for="confirmaSenha">Confirmar Senha:</label>
+        <input type="password" id="confirmaSenha">
+        <button type="submit">Enviar</button>
+        <span id="erroSenha" style="color: red; display: none;">As senhas não coincidem.</span>
+    </form>
+
+    <hr>
+
+    <!-- Etapa 8: Contador de caracteres para comentário -->
+    <h2>8. Contador de Caracteres em Comentário</h2>
+    <div>
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" maxlength="200"></textarea>
+        <div>
+            <span id="contador">200</span> caracteres restantes
+        </div>
+    </div>
+
+    <script src="dom_exercicios.js"></script>
+</body>
+</html>
